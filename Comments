@@ -1,0 +1,9 @@
+Config is ajust a basic example of what this version of montoring can do, 
+SETUP is not used in this version
+RESULT_DB:
+  Governs setup information related to storing data in your database.
+  
+JOB_DB:
+  Much like result, stores the jobs that are to be checked.
+  
+from then on out, titles are considerd as jobs, they must include a url and a string to check for as well as a max timeout.  
