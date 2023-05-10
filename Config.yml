@@ -1,0 +1,35 @@
+SETUP:
+  sendee: "justin@pixedo.co.uk"
+  interval: 10
+
+RESULT_DB:
+  name: "result"
+  user: "root"
+  pass: ""
+  host: "127.0.0.1"
+  port: 3306
+
+JOB_DB:
+  name: "jobs"
+  user: "root"
+  pass: ""
+  host: "127.0.0.1"
+  port: 3305
+
+Sam:
+  url: http://cv.pixedo.co.uk
+  strings: ["test", "Sam", "PHP"]
+  elements: None
+  timeout: 0.3
+  response: 200
+
+YouTube:
+  url: http://www.youtube.com
+  strings: ["views", "Recommended videos"]
+  elements: ["Header"]
+  timeout: 0.4
+
+Messenger:
+  url: http://messenger.com
+  strings: ["you"]
+  timeout: 0.6
